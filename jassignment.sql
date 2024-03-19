@@ -1,0 +1,36 @@
+CREATE DATABASE jassignment;
+CREATE TABLE brand(bid INT PRIMARY KEY AUTO_INCREMENT,
+bname VARCHAR(255));
+CREATE TABLE cart(Name VARCHAR(255), bname VARCHAR(255),cname VARCHAR(255),pname VARCHAR(255),
+pprice INT, pquantity INT, pimage BLOB NOT NULL);
+CREATE TABLE category(cid INT PRIMARY KEY AUTO_INCREMENT, cname VARCHAR(255));
+CREATE TABLE contactus(id INT PRIMARY KEY AUTO_INCREMENT, Name VARCHAR(255), Email_id VARCHAR(255),
+Contact_No INT, Message VARCHAR(255));
+CREATE TABLE record_sequence(name VARCHAR(255), seq INT);
+CREATE TABLE customer(Name VARCHAR(255),Email_id VARCHAR(255),Password VARCHAR(255),
+ Contact_No INT);
+CREATE TABLE login(username VARCHAR(255), password VARCHAR(255)); 
+CREATE TABLE order_details(Date VARCHAR(255), Name VARCHAR(255), bname VARCHAR(255),cname VARCHAR(255),
+pname VARCHAR(255),pprice INT, pquantity INT, pimage BLOB NOT NULL );
+CREATE TABLE orders(Order_Id INT PRIMARY KEY AUTO_INCREMENT, Customer_Name VARCHAR(255),
+Customer_City VARCHAR(255), Date VARCHAR(255),Tota_Price INT, Status VARCHAR(255));
+CREATE TABLE product(pid INT PRIMARY KEY AUTO_INCREMENT, pname VARCHAR(255),
+pprice INT, pquantity INT, pimage BLOB NOT NULL,bid INT, cid INT);
+CREATE TABLE usermaster(Name VARCHAR(255), Password VARCHAR(255));
+INSERT INTO brand VALUES(1,"SAMSUNG");
+INSERT INTO brand VALUES(2,"LENOVO");
+INSERT INTO brand VALUES(3,"ACER");
+INSERT INTO brand VALUES(4,"SONY");
+INSERT INTO brand VALUES(5,"APPLE");
+INSERT INTO category VALUES(1 ,"TELEVISION");
+INSERT INTO category VALUES(2 ,"DESKTOP COMPUTER");
+INSERT INTO category VALUES(3 ,"WASHING MACHINE");
+INSERT INTO category VALUES(4 ,"MOBILE PHONE");
+INSERT INTO category VALUES(5 ,"LAPTOP");
+INSERT INTO category VALUES(6 ,"TABLET");
+INSERT INTO record_sequence VALUES("product", 35);
+INSERT INTO record_sequence VALUES("orders", 8);
+INSERT INTO record_sequence VALUES("contactus", 2);
+
+
+
