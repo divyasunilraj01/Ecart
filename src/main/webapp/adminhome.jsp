@@ -12,9 +12,8 @@
 <link rel="stylesheet" href = "images/bootstrap.css">
 
 <link rel="stylesheet" href="Css/w3.css">
-<link rel="stylesheet" href="Css/font.css">
 <link rel="stylesheet" href="Css/abc.css">
-
+<link rel="stylesheet" href="Css/font.css">
 
 <style>
 .w3-sidebar a {font-family: "Roboto", sans-serif}
@@ -51,11 +50,14 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
         }
         
         
+        .imgh {
+  width: 100%;
+  height: auto;
+}
         
-
         </style>
         
-        <style>
+         <style>
 
 .mySlides {display: none;}
 img {vertical-align: middle;}
@@ -103,16 +105,16 @@ img {vertical-align: middle;}
 
 </head>
 <body>
-<form action="" method= "post">
 
-	<%@ include file = "navbar.jsp" %>
-	
-	
-	<div style='background-color:#ebe9eb'>
+
+<%@ include file="admin_navbar.jsp" %>
+
+<div style="background-color: #ebe9eb">
 	<br>
 	<h1>Home</h1>
 	<br>
 	</div>
+
 
 <div class="slideshow-container">
 
@@ -172,9 +174,9 @@ function showSlides() {
 }
 </script>
 
-
 <br>
 <hr>
+
 
 	<br>
 	<center><h3><c>Featured Products</c></h3></center>
@@ -191,12 +193,12 @@ function showSlides() {
 		<center>
 			<table>
 				<tr><th>
-					<a href = 'selecteditem.jsp?Pn=<%=v.getPimage()%>'> <img src =' images/<%= v.getPimage() %>' height = 150px weight = 150px></a>
+					<a href = 'selecteditema.jsp?Pn=<%=v.getPimage()%>'> <img src =' images/<%= v.getPimage() %>' height = 150px weight = 150px></a>
 				</th></tr><br>
 				<tr style='background-color: #ebe9eb'><th style='text-align: center'>
-					<a href = 'selecteditem.jsp?Pn=<%=v.getPimage()%>'> <%= v.getBname()%> <%= v.getPname()%></a>
+					<a href = 'selecteditema.jsp?Pn=<%=v.getPimage()%>'> <%= v.getBname()%> <%= v.getPname()%></a>
 				</th></tr>
-			</table>	
+			</table>
 		</center>
 		</div>
 		</b>
@@ -204,6 +206,7 @@ function showSlides() {
 		<%}%>
 	
 	</div>
+
 
 
 <br>
@@ -216,6 +219,5 @@ function showSlides() {
 </footer>
 
 
-</form>
 </body>
 </html>

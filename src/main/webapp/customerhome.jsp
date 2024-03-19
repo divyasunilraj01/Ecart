@@ -20,11 +20,11 @@
 .w3-sidebar a {font-family: "Roboto", sans-serif}
 body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 </style>
-
-	 <style>
+	
+	<style>
 	 	
 	 	 c {
-        color: black;
+       color: black;
         text-decoration: none;
         background-color: #ebe9eb;
         padding: 14px 25px;
@@ -50,12 +50,14 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
           background-color: #777;
         }
         
+        .imgh {
+  width: 100%;
+  height: auto;
+}
         
-        
-
         </style>
         
-        <style>
+         <style>
 
 .mySlides {display: none;}
 img {vertical-align: middle;}
@@ -100,20 +102,21 @@ img {vertical-align: middle;}
   .text {font-size: 11px}
 }
 </style>
+	
 
 </head>
 <body>
-<form action="" method= "post">
 
-	<%@ include file = "navbar.jsp" %>
-	
-	
-	<div style='background-color:#ebe9eb'>
+
+<%@ include file="customer_navbar.jsp" %>
+
+	<div style="background-color: #ebe9eb">
 	<br>
 	<h1>Home</h1>
 	<br>
 	</div>
-
+	
+	
 <div class="slideshow-container">
 
 <div class="mySlides">
@@ -176,7 +179,7 @@ function showSlides() {
 <br>
 <hr>
 
-	<br>
+<br>
 	<center><h3><c>Featured Products</c></h3></center>
 	<br>
 <div class = "scrollmenu" style="max-width: 1200px">
@@ -191,12 +194,12 @@ function showSlides() {
 		<center>
 			<table>
 				<tr><th>
-					<a href = 'selecteditem.jsp?Pn=<%=v.getPimage()%>'> <img src =' images/<%= v.getPimage() %>' height = 150px weight = 150px></a>
+					<a href = 'selecteditemc.jsp?Pn=<%=v.getPimage()%>'> <img src =' images/<%= v.getPimage() %>' height = 150px weight = 150px></a>
 				</th></tr><br>
 				<tr style='background-color: #ebe9eb'><th style='text-align: center'>
-					<a href = 'selecteditem.jsp?Pn=<%=v.getPimage()%>'> <%= v.getBname()%> <%= v.getPname()%></a>
+					<a href = 'selecteditemc.jsp?Pn=<%=v.getPimage()%>'> <%= v.getBname()%> <%= v.getPname()%></a>
 				</th></tr>
-			</table>	
+			</table>
 		</center>
 		</div>
 		</b>
@@ -204,6 +207,7 @@ function showSlides() {
 		<%}%>
 	
 	</div>
+
 
 
 <br>
@@ -214,8 +218,5 @@ function showSlides() {
   
 	<%@ include file = "footer.jsp" %>
 </footer>
-
-
-</form>
 </body>
 </html>
