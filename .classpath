@@ -39,5 +39,10 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/Users/Divya/Downloads/apache-tomcat-10.1.19/apache-tomcat-10.1.19/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Divya/Downloads/commons-codec-1.16.1-bin/commons-codec-1.16.1/commons-codec-1.16.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Divya/Downloads/commons-codec-1.16.1-bin/commons-codec-1.16.1/commons-codec-1.16.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Divya/Downloads/commons-codec-1.16.1-bin/commons-codec-1.16.1/commons-codec-1.16.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Divya/Downloads/commons-codec-1.16.1-bin/commons-codec-1.16.1/commons-codec-1.16.1-tests.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Divya/Downloads/commons-codec-1.16.1-bin/commons-codec-1.16.1/commons-codec-1.16.1-test-sources.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
