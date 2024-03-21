@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.servlet.AddContactusTest" time="0.532" tests="1" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.servlet.AddContactusTest" time="0.111" tests="3" errors="1" skipped="0" failures="2">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\Divya\eclipse-workspace1\Ecart\target\test-classes;C:\Users\Divya\eclipse-workspace1\Ecart\target\classes;C:\Users\Divya\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Divya\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Divya\.m2\repository\javax\servlet\javax.servlet-api\4.0.1\javax.servlet-api-4.0.1.jar;C:\Users\Divya\.m2\repository\commons-fileupload\commons-fileupload\1.4\commons-fileupload-1.4.jar;C:\Users\Divya\.m2\repository\commons-codec\commons-codec\1.16.1\commons-codec-1.16.1.jar;C:\Users\Divya\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Divya\.m2\repository\mysql\mysql-connector-java\8.0.29\mysql-connector-java-8.0.29.jar;C:\Users\Divya\.m2\repository\com\google\protobuf\protobuf-java\3.19.4\protobuf-java-3.19.4.jar;C:\Users\Divya\.m2\repository\org\mockito\mockito-core\3.12.4\mockito-core-3.12.4.jar;C:\Users\Divya\.m2\repository\net\bytebuddy\byte-buddy\1.11.13\byte-buddy-1.11.13.jar;C:\Users\Divya\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\Divya\.m2\repository\net\bytebuddy\byte-buddy-agent\1.11.13\byte-buddy-agent-1.11.13.jar;"/>
+    <property name="java.class.path" value="C:\Users\Divya\eclipse-workspace1\Ecart\target\test-classes;C:\Users\Divya\eclipse-workspace1\Ecart\target\classes;C:\Users\Divya\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Divya\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Divya\.m2\repository\javax\servlet\javax.servlet-api\4.0.1\javax.servlet-api-4.0.1.jar;C:\Users\Divya\.m2\repository\commons-fileupload\commons-fileupload\1.4\commons-fileupload-1.4.jar;C:\Users\Divya\.m2\repository\commons-codec\commons-codec\1.16.1\commons-codec-1.16.1.jar;C:\Users\Divya\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Divya\.m2\repository\mysql\mysql-connector-java\8.0.29\mysql-connector-java-8.0.29.jar;C:\Users\Divya\.m2\repository\com\google\protobuf\protobuf-java\3.19.4\protobuf-java-3.19.4.jar;C:\Users\Divya\.m2\repository\org\mockito\mockito-core\3.12.4\mockito-core-3.12.4.jar;C:\Users\Divya\.m2\repository\net\bytebuddy\byte-buddy\1.11.13\byte-buddy-1.11.13.jar;C:\Users\Divya\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\Divya\.m2\repository\net\bytebuddy\byte-buddy-agent\1.11.13\byte-buddy-agent-1.11.13.jar;C:\Users\Divya\.m2\repository\com\h2database\h2\1.4.200\h2-1.4.200.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -16,9 +16,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\Divya\AppData\Local\Temp\surefire7497894405837480245\surefirebooter-20240320225256204_3.jar C:\Users\Divya\AppData\Local\Temp\surefire7497894405837480245 2024-03-20T22-52-56_016-jvmRun1 surefire-20240320225256204_1tmp surefire_0-20240320225256204_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Divya\AppData\Local\Temp\surefire18425453895707426514\surefirebooter-20240321133038628_3.jar C:\Users\Divya\AppData\Local\Temp\surefire18425453895707426514 2024-03-21T13-30-38_362-jvmRun1 surefire-20240321133038628_1tmp surefire_0-20240321133038628_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\Divya\eclipse-workspace1\Ecart\target\test-classes;C:\Users\Divya\eclipse-workspace1\Ecart\target\classes;C:\Users\Divya\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Divya\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Divya\.m2\repository\javax\servlet\javax.servlet-api\4.0.1\javax.servlet-api-4.0.1.jar;C:\Users\Divya\.m2\repository\commons-fileupload\commons-fileupload\1.4\commons-fileupload-1.4.jar;C:\Users\Divya\.m2\repository\commons-codec\commons-codec\1.16.1\commons-codec-1.16.1.jar;C:\Users\Divya\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Divya\.m2\repository\mysql\mysql-connector-java\8.0.29\mysql-connector-java-8.0.29.jar;C:\Users\Divya\.m2\repository\com\google\protobuf\protobuf-java\3.19.4\protobuf-java-3.19.4.jar;C:\Users\Divya\.m2\repository\org\mockito\mockito-core\3.12.4\mockito-core-3.12.4.jar;C:\Users\Divya\.m2\repository\net\bytebuddy\byte-buddy\1.11.13\byte-buddy-1.11.13.jar;C:\Users\Divya\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\Divya\.m2\repository\net\bytebuddy\byte-buddy-agent\1.11.13\byte-buddy-agent-1.11.13.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\Divya\eclipse-workspace1\Ecart\target\test-classes;C:\Users\Divya\eclipse-workspace1\Ecart\target\classes;C:\Users\Divya\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Divya\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Divya\.m2\repository\javax\servlet\javax.servlet-api\4.0.1\javax.servlet-api-4.0.1.jar;C:\Users\Divya\.m2\repository\commons-fileupload\commons-fileupload\1.4\commons-fileupload-1.4.jar;C:\Users\Divya\.m2\repository\commons-codec\commons-codec\1.16.1\commons-codec-1.16.1.jar;C:\Users\Divya\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Divya\.m2\repository\mysql\mysql-connector-java\8.0.29\mysql-connector-java-8.0.29.jar;C:\Users\Divya\.m2\repository\com\google\protobuf\protobuf-java\3.19.4\protobuf-java-3.19.4.jar;C:\Users\Divya\.m2\repository\org\mockito\mockito-core\3.12.4\mockito-core-3.12.4.jar;C:\Users\Divya\.m2\repository\net\bytebuddy\byte-buddy\1.11.13\byte-buddy-1.11.13.jar;C:\Users\Divya\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\Divya\.m2\repository\net\bytebuddy\byte-buddy-agent\1.11.13\byte-buddy-agent-1.11.13.jar;C:\Users\Divya\.m2\repository\com\h2database\h2\1.4.200\h2-1.4.200.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Divya"/>
     <property name="user.language" value="en"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Divya\AppData\Local\Temp\surefire7497894405837480245\surefirebooter-20240320225256204_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Divya\AppData\Local\Temp\surefire18425453895707426514\surefirebooter-20240321133038628_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.10+11-LTS-240"/>
@@ -57,19 +57,53 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testDoPost_SuccessfulSubmission" classname="com.servlet.AddContactusTest" time="0.532">
-    <failure message="&#10;Argument(s) are different! Wanted:&#10;httpServletResponse.sendRedirect(&#10;    &quot;cupass.jsp&quot;&#10;);&#10;-&gt; at com.servlet.AddContactusTest.testDoPost_SuccessfulSubmission(AddContactusTest.java:42)&#10;Actual invocations have different arguments:&#10;httpServletResponse.sendRedirect(&#10;    &quot;cufail.jsp&quot;&#10;);&#10;-&gt; at com.servlet.addContactus.doPost(addContactus.java:75)&#10;" type="Argument(s) are different! Wanted"><![CDATA[Argument(s) are different! Wanted:
-httpServletResponse.sendRedirect(
-    "cupass.jsp"
-);
--> at com.servlet.AddContactusTest.testDoPost_SuccessfulSubmission(AddContactusTest.java:42)
-Actual invocations have different arguments:
-httpServletResponse.sendRedirect(
-    "cufail.jsp"
-);
--> at com.servlet.addContactus.doPost(addContactus.java:75)
+  <testcase name="testDoPost_FailedSubmission" classname="com.servlet.AddContactusTest" time="0.036">
+    <error message="Cannot parse null string" type="java.lang.NumberFormatException"><![CDATA[java.lang.NumberFormatException: Cannot parse null string
+	at java.base/java.lang.Integer.parseInt(Integer.java:630)
+	at java.base/java.lang.Integer.parseInt(Integer.java:786)
+	at com.servlet.addContactus.doPost(addContactus.java:55)
+	at com.servlet.AddContactusTest.testDoPost_FailedSubmission(AddContactusTest.java:67)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></error>
+  </testcase>
+  <testcase name="testDoPost_SuccessfulSubmission" classname="com.servlet.AddContactusTest" time="0.031">
+    <failure message="&#10;response.sendRedirect(&quot;cupass.jsp&quot;);&#10;Wanted 1 time:&#10;-&gt; at com.servlet.AddContactusTest.testDoPost_SuccessfulSubmission(AddContactusTest.java:52)&#10;But was 3 times:&#10;-&gt; at com.servlet.addContactus.doPost(addContactus.java:70)&#10;-&gt; at com.servlet.addContactus.doPost(addContactus.java:83)&#10;-&gt; at com.servlet.addContactus.doPost(addContactus.java:91)&#10;&#10;" type="org.mockito.exceptions.verification.TooManyActualInvocations"><![CDATA[org.mockito.exceptions.verification.TooManyActualInvocations: 
 
-	at com.servlet.AddContactusTest.testDoPost_SuccessfulSubmission(AddContactusTest.java:42)
+response.sendRedirect("cupass.jsp");
+Wanted 1 time:
+-> at com.servlet.AddContactusTest.testDoPost_SuccessfulSubmission(AddContactusTest.java:52)
+But was 3 times:
+-> at com.servlet.addContactus.doPost(addContactus.java:70)
+-> at com.servlet.addContactus.doPost(addContactus.java:83)
+-> at com.servlet.addContactus.doPost(addContactus.java:91)
+
+
+	at com.servlet.AddContactusTest.testDoPost_SuccessfulSubmission(AddContactusTest.java:52)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -97,14 +131,20 @@ httpServletResponse.sendRedirect(
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-out><![CDATA[Cannot invoke "java.sql.Connection.prepareStatement(String)" because "this.conn" is null
-]]></system-out>
-    <system-err><![CDATA[java.sql.SQLException: No suitable driver found for jdbc:mysql:C:/Users/Divya/eclipse-workspace/servers/E-Commerce/mydatabase.db
-	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:706)
-	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:252)
-	at com.conn.DBConnect.getConn(DBConnect.java:17)
-	at com.servlet.addContactus.doPost(addContactus.java:65)
-	at com.servlet.AddContactusTest.testDoPost_SuccessfulSubmission(AddContactusTest.java:39)
+  </testcase>
+  <testcase name="testDoPost_ExceptionThrown" classname="com.servlet.AddContactusTest" time="0.031">
+    <failure message="&#10;Argument(s) are different! Wanted:&#10;response.sendRedirect(&quot;error.jsp&quot;);&#10;-&gt; at com.servlet.AddContactusTest.testDoPost_ExceptionThrown(AddContactusTest.java:85)&#10;Actual invocations have different arguments:&#10;response.sendRedirect(&quot;cupass.jsp&quot;);&#10;-&gt; at com.servlet.addContactus.doPost(addContactus.java:70)&#10;response.sendRedirect(&quot;cupass.jsp&quot;);&#10;-&gt; at com.servlet.addContactus.doPost(addContactus.java:83)&#10;response.sendRedirect(&quot;cupass.jsp&quot;);&#10;-&gt; at com.servlet.addContactus.doPost(addContactus.java:91)&#10;" type="Argument(s) are different! Wanted"><![CDATA[Argument(s) are different! Wanted:
+response.sendRedirect("error.jsp");
+-> at com.servlet.AddContactusTest.testDoPost_ExceptionThrown(AddContactusTest.java:85)
+Actual invocations have different arguments:
+response.sendRedirect("cupass.jsp");
+-> at com.servlet.addContactus.doPost(addContactus.java:70)
+response.sendRedirect("cupass.jsp");
+-> at com.servlet.addContactus.doPost(addContactus.java:83)
+response.sendRedirect("cupass.jsp");
+-> at com.servlet.addContactus.doPost(addContactus.java:91)
+
+	at com.servlet.AddContactusTest.testDoPost_ExceptionThrown(AddContactusTest.java:85)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -131,6 +171,6 @@ httpServletResponse.sendRedirect(
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></system-err>
+]]></failure>
   </testcase>
 </testsuite>
