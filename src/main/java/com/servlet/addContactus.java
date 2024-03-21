@@ -39,8 +39,7 @@ public class addContactus extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 			
 		
-		
-	}
+		}
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		String Name=request.getParameter("Name");
@@ -78,6 +77,25 @@ public class addContactus extends HttpServlet {
 			}catch(Exception ex){
 			   System.out.println(ex.getMessage());
 			}
+		try {
+		    // Process form submission
+		    // If successful, redirect to "cupass.jsp"
+		    response.sendRedirect("cupass.jsp");
+		} catch (Exception ex) {
+		    // If an exception occurs, redirect to the error page
+		    response.sendRedirect("error.jsp");
+		}
+		try {
+		    // Process form submission
+		    // If successful, redirect to "cupass.jsp"
+		    response.sendRedirect("cupass.jsp");
+		} catch (Exception ex) {
+		    // If an exception occurs, set an error message attribute
+		    request.setAttribute("errorMessage", "An error occurred. Please try again later.");
+		    // Forward to the same page to display the error message
+		    request.getRequestDispatcher("/yourFormPage.jsp").forward(request, response);
+		}
+
 			
 	
 				
