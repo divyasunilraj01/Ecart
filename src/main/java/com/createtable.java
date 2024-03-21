@@ -56,6 +56,21 @@ public class createtable {
 			System.out.println(i + " row inserted....");
 		
 		}
+
+	public static void createTable(Connection connection) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public static void insertData(Connection connection) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public static Connection getConnection(String uRL, String uSERNAME, String pASSWORD) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 	
 
 

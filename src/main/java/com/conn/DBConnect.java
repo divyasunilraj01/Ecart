@@ -3,28 +3,20 @@ package com.conn;
 import java.sql.Connection;
 import java.sql.DriverManager;
 
-public class DBConnect 
-{
+public class DBConnect {
 
-	private static Connection conn = null;
-	
-	public static Connection getConn()
-	{
-		try {
-			
-			Class.forName("com.mysql.cj.jdbc.Driver");
-		//	conn = DriverManager.getConnection("jdbc:mysql:jassignment.db");
-			conn = DriverManager.getConnection("jdbc:mysql:C:/Users/Divya/eclipse-workspace/servers/E-Commerce/mydatabase.db");
+    private static Connection conn = null;
+    private static final String JDBC_URL = "jdbc:mysql://localhost:3306/jassignment";
+    private static final String USERNAME = "root";
+    private static final String PASSWORD = "root";
 
-			
-		}catch (Exception e) {
-			e.printStackTrace();
-		}
-		
-		
-		
-		
-		return conn;
-	}
-	
+    public static Connection getConn() {
+        try {
+            Class.forName("com.mysql.cj.jdbc.Driver");
+            conn = DriverManager.getConnection(JDBC_URL, USERNAME, PASSWORD);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return conn;
+    }
 }

@@ -81,4 +81,9 @@ public class removetable_order_details extends HttpServlet {
 		
 	}
 
+	public void setDAO5(DAO5 daoMock) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

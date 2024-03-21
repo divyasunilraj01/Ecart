@@ -62,11 +62,12 @@ public class checkadmin extends HttpServlet {
 			
 			
 			if (dao.checkadmin(um)==true)
-			{
-				Cookie u = new Cookie("tname",admin);
-				u.setMaxAge(9999);
-				response.addCookie(u);
-				response.sendRedirect("adminhome.jsp");
+			{Cookie u = new Cookie("tname",admin);
+			u.setMaxAge(9999);
+			response.addCookie(u);
+			
+
+
 			}
 				else
 				{

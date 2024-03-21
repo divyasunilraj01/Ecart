@@ -79,4 +79,9 @@ public class removecartnulla extends HttpServlet {
 		
 	}
 
+	public void setDAO2(DAO2 daoMock) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
